@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9091BF128262120DE46598A /* libPods-tiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 925A8F1E424D4ECFD6A9EDD0 /* libPods-tiny.a */; };
+		FE6108141C17520900AD062D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE61080F1C17520900AD062D /* ViewController.m */; };
 		FEDD2FC11C15D930002EB500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD2FC01C15D930002EB500 /* main.m */; };
 		FEDD2FC41C15D930002EB500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD2FC31C15D930002EB500 /* AppDelegate.m */; };
-		FEDD2FC71C15D930002EB500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD2FC61C15D930002EB500 /* ViewController.m */; };
-		FEDD2FCA1C15D930002EB500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDD2FC81C15D930002EB500 /* Main.storyboard */; };
 		FEDD2FCC1C15D930002EB500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDD2FCB1C15D930002EB500 /* Assets.xcassets */; };
 		FEDD2FCF1C15D930002EB500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDD2FCD1C15D930002EB500 /* LaunchScreen.storyboard */; };
 		FEDD2FDA1C15D930002EB500 /* tinyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD2FD91C15D930002EB500 /* tinyTests.m */; };
 		FEDD2FE51C15D930002EB500 /* tinyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD2FE41C15D930002EB500 /* tinyUITests.m */; };
+		FEDD2FF41C15DCC6002EB500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDD2FF21C15DCC6002EB500 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		925A8F1E424D4ECFD6A9EDD0 /* libPods-tiny.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tiny.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42F5B07F21FCE76BF1BE2E8 /* Pods-tiny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tiny/Pods-tiny.debug.xcconfig"; sourceTree = "<group>"; };
+		C7E1FBA4B9AF0E08549D45F9 /* Pods-tiny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiny.release.xcconfig"; path = "Pods/Target Support Files/Pods-tiny/Pods-tiny.release.xcconfig"; sourceTree = "<group>"; };
+		FE61080E1C17520900AD062D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE61080F1C17520900AD062D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FEDD2FBC1C15D930002EB500 /* tiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDD2FC01C15D930002EB500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEDD2FC21C15D930002EB500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEDD2FC31C15D930002EB500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEDD2FC51C15D930002EB500 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEDD2FC61C15D930002EB500 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FEDD2FC91C15D930002EB500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEDD2FCB1C15D930002EB500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEDD2FCE1C15D930002EB500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEDD2FD01C15D930002EB500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		FEDD2FE01C15D930002EB500 /* tinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDD2FE41C15D930002EB500 /* tinyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tinyUITests.m; sourceTree = "<group>"; };
 		FEDD2FE61C15D930002EB500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDD2FF31C15DCC6002EB500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9091BF128262120DE46598A /* libPods-tiny.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0112D249579766941B2B79F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A42F5B07F21FCE76BF1BE2E8 /* Pods-tiny.debug.xcconfig */,
+				C7E1FBA4B9AF0E08549D45F9 /* Pods-tiny.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D80101ED38C83161D4098A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925A8F1E424D4ECFD6A9EDD0 /* libPods-tiny.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE61080D1C17520900AD062D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE61080E1C17520900AD062D /* ViewController.h */,
+				FE61080F1C17520900AD062D /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE6108101C17520900AD062D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE6108151C17528500AD062D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FE6108161C17528500AD062D /* TCColorPicker */,
+				FE6108171C17528500AD062D /* TCSquareCanvas */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FE6108161C17528500AD062D /* TCColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TCColorPicker;
+			sourceTree = "<group>";
+		};
+		FE6108171C17528500AD062D /* TCSquareCanvas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TCSquareCanvas;
+			sourceTree = "<group>";
+		};
 		FEDD2FB31C15D930002EB500 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +146,8 @@
 				FEDD2FD81C15D930002EB500 /* tinyTests */,
 				FEDD2FE31C15D930002EB500 /* tinyUITests */,
 				FEDD2FBD1C15D930002EB500 /* Products */,
+				0112D249579766941B2B79F1 /* Pods */,
+				2D80101ED38C83161D4098A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +164,13 @@
 		FEDD2FBE1C15D930002EB500 /* tiny */ = {
 			isa = PBXGroup;
 			children = (
+				FE6108101C17520900AD062D /* Model */,
+				FE6108151C17528500AD062D /* Utility */,
+				FE61080D1C17520900AD062D /* Controller */,
 				FEDD2FC21C15D930002EB500 /* AppDelegate.h */,
 				FEDD2FC31C15D930002EB500 /* AppDelegate.m */,
-				FEDD2FC51C15D930002EB500 /* ViewController.h */,
-				FEDD2FC61C15D930002EB500 /* ViewController.m */,
-				FEDD2FC81C15D930002EB500 /* Main.storyboard */,
 				FEDD2FCB1C15D930002EB500 /* Assets.xcassets */,
+				FEDD2FF21C15DCC6002EB500 /* Main.storyboard */,
 				FEDD2FCD1C15D930002EB500 /* LaunchScreen.storyboard */,
 				FEDD2FD01C15D930002EB500 /* Info.plist */,
 				FEDD2FBF1C15D930002EB500 /* Supporting Files */,
@@ -147,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEDD2FE91C15D930002EB500 /* Build configuration list for PBXNativeTarget "tiny" */;
 			buildPhases = (
+				E378975F508A6013D291DD36 /* Check Pods Manifest.lock */,
 				FEDD2FB81C15D930002EB500 /* Sources */,
 				FEDD2FB91C15D930002EB500 /* Frameworks */,
 				FEDD2FBA1C15D930002EB500 /* Resources */,
+				6603FB57AB0C2C4B264D1580 /* Embed Pods Frameworks */,
+				FEE5949E6ED7DF93379FC5C2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDD2FF41C15DCC6002EB500 /* Main.storyboard in Resources */,
 				FEDD2FCF1C15D930002EB500 /* LaunchScreen.storyboard in Resources */,
 				FEDD2FCC1C15D930002EB500 /* Assets.xcassets in Resources */,
-				FEDD2FCA1C15D930002EB500 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +332,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6603FB57AB0C2C4B264D1580 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tiny/Pods-tiny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E378975F508A6013D291DD36 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE5949E6ED7DF93379FC5C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tiny/Pods-tiny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEDD2FB81C15D930002EB500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEDD2FC71C15D930002EB500 /* ViewController.m in Sources */,
 				FEDD2FC41C15D930002EB500 /* AppDelegate.m in Sources */,
+				FE6108141C17520900AD062D /* ViewController.m in Sources */,
 				FEDD2FC11C15D930002EB500 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,20 +423,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FEDD2FC81C15D930002EB500 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEDD2FC91C15D930002EB500 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FEDD2FCD1C15D930002EB500 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FEDD2FCE1C15D930002EB500 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDD2FF21C15DCC6002EB500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDD2FF31C15DCC6002EB500 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,23 +526,29 @@
 		};
 		FEDD2FEA1C15D930002EB500 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42F5B07F21FCE76BF1BE2E8 /* Pods-tiny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tiny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timecoco.tiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FEDD2FEB1C15D930002EB500 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E1FBA4B9AF0E08549D45F9 /* Pods-tiny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tiny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timecoco.tiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +619,7 @@
 				FEDD2FEB1C15D930002EB500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEDD2FEC1C15D930002EB500 /* Build configuration list for PBXNativeTarget "tinyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +628,7 @@
 				FEDD2FEE1C15D930002EB500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEDD2FEF1C15D930002EB500 /* Build configuration list for PBXNativeTarget "tinyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +637,7 @@
 				FEDD2FF11C15D930002EB500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
